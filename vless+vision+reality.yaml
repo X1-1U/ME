@@ -1,0 +1,16 @@
+proxies:
+  - name: "vless+vision+reality-6y0yft8z"
+    type: vless
+    server: 107.172.90.177
+    port: 443
+    uuid: bf80a16f-5ad5-4674-8a01-7e749137fa6c
+    tls: true
+    flow: xtls-rprx-vision
+    network: tcp
+    skip-cert-verify: false
+    reality-opts:
+      public-key: pAYfuwk4y3z2zfYX7LViM-a1bF0uXsoMQWM2NmbMQ1k
+      short-id: d56f2008dd324270
+      spiderx: "/"
+    servername: bf80a16f.com
+    udp: true
