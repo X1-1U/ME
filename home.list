@@ -1,3 +1,2 @@
 IP-CIDR,100.125.243.111,no-resolve
-IP-CIDR,192.168.2.1,no-resolve
-IP-CIDR,192.168.2.140,no-resolve
+IP-CIDR,192.168.2.0/24,no-resolve
