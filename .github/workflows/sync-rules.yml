@@ -1,0 +1,37 @@
+name: Sync upstream rules
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'rules-sources.json'
+      - 'scripts/sync_rules.py'
+      - 'scripts/test_sync_rules.py'
+      - '.github/workflows/sync-rules.yml'
+permissions:
+  contents: write
+concurrency:
+  group: sync-upstream-rules
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test sync protections
+        run: python scripts/test_sync_rules.py
+      - name: Fetch and deduplicate rules
+        run: python scripts/sync_rules.py
+      - name: Publish changed rule files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add rules/managed
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Update upstream rule snapshots'
+          git push

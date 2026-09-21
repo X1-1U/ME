@@ -1,0 +1,508 @@
+{
+  "version": 1,
+  "providers": [
+    {
+      "name": "追加-GoogleCNProxyIP",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/001.list"
+    },
+    {
+      "name": "追加-LocalAreaNetwork",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/002.list"
+    },
+    {
+      "name": "追加-UnBan",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/003.list"
+    },
+    {
+      "name": "追加-ChinaDomain",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/004.list"
+    },
+    {
+      "name": "追加-ChinaMedia",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/005.list"
+    },
+    {
+      "name": "追加-BanAD",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/006.list"
+    },
+    {
+      "name": "追加-BanProgramAD",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/007.list"
+    },
+    {
+      "name": "追加-ChinaCompanyIp",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/008.list"
+    },
+    {
+      "name": "追加-ChinaIp",
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
+      "behavior": "classical",
+      "protected": true,
+      "output": "rules/managed/009.list"
+    },
+    {
+      "name": "TEST / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Check.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/014.list"
+    },
+    {
+      "name": "ChatGPT / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/openai.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/015.list"
+    },
+    {
+      "name": "Claude / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/016.list"
+    },
+    {
+      "name": "Meta AI / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/MetaAi.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/017.list"
+    },
+    {
+      "name": "Perplexity / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/perplexity.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/018.list"
+    },
+    {
+      "name": "Copilot / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Copilot.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/019.list"
+    },
+    {
+      "name": "Gemini / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Gemini.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/020.list"
+    },
+    {
+      "name": "GitHub / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/github.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/021.list"
+    },
+    {
+      "name": "Telegram / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/telegram.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/022.list"
+    },
+    {
+      "name": "Telegram / IP",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/telegram.list",
+      "behavior": "ipcidr",
+      "protected": false,
+      "output": "rules/managed/023.list"
+    },
+    {
+      "name": "Twitter / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/x.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/024.list"
+    },
+    {
+      "name": "WhatsApp / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/025.list"
+    },
+    {
+      "name": "Facebook / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/facebook.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/026.list"
+    },
+    {
+      "name": "Amazon / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/amazon.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/027.list"
+    },
+    {
+      "name": "Apple-CN / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/028.list"
+    },
+    {
+      "name": "Apple / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/029.list"
+    },
+    {
+      "name": "Apple-Custome / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/030.list"
+    },
+    {
+      "name": "Microsoft / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/microsoft.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/031.list"
+    },
+    {
+      "name": "Crypto / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/032.list"
+    },
+    {
+      "name": "OKX / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/okx.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/033.list"
+    },
+    {
+      "name": "Bybit / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/bybit.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/034.list"
+    },
+    {
+      "name": "Binance / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/binance.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/035.list"
+    },
+    {
+      "name": "Twitch / Domain",
+      "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitch.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/036.list"
+    },
+    {
+      "name": "TikTok / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/tiktok.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/037.list"
+    },
+    {
+      "name": "Netflix / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/netflix.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/038.list"
+    },
+    {
+      "name": "Netflix / IP",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/netflix.list",
+      "behavior": "ipcidr",
+      "protected": false,
+      "output": "rules/managed/039.list"
+    },
+    {
+      "name": "Disney / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/disney.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/040.list"
+    },
+    {
+      "name": "HBO / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/041.list"
+    },
+    {
+      "name": "Spotify / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/spotify.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/042.list"
+    },
+    {
+      "name": "Steam / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/steam.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/043.list"
+    },
+    {
+      "name": "Epic / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic/Epic.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/044.list"
+    },
+    {
+      "name": "EA / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA/EA.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/045.list"
+    },
+    {
+      "name": "Blizzard / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blizzard/Blizzard.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/046.list"
+    },
+    {
+      "name": "UBI / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/047.list"
+    },
+    {
+      "name": "PlayStation / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PlayStation/PlayStation.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/048.list"
+    },
+    {
+      "name": "Nintend / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo/Nintendo.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/049.list"
+    },
+    {
+      "name": "Proxy / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Proxy.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/050.list"
+    },
+    {
+      "name": "Globe / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/051.list"
+    },
+    {
+      "name": "Block / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Block.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/052.list"
+    },
+    {
+      "name": "Nvidia / Domain",
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/053.list"
+    },
+    {
+      "name": "Crunchyroll / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Crunchyroll.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/054.list"
+    },
+    {
+      "name": "Reddit / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/reddit.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/055.list"
+    },
+    {
+      "name": "Groq / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/groq.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/056.list"
+    },
+    {
+      "name": "Grok / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Grok.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/057.list"
+    },
+    {
+      "name": "Popcorn / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Popcorn.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/058.list"
+    },
+    {
+      "name": "Direct / Domain",
+      "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Direct.list",
+      "behavior": "classical",
+      "protected": false,
+      "output": "rules/managed/059.list"
+    },
+    {
+      "name": "Private / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/private.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/060.list"
+    },
+    {
+      "name": "China / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/cn.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/061.list"
+    },
+    {
+      "name": "China / IP",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/cn.list",
+      "behavior": "ipcidr",
+      "protected": false,
+      "output": "rules/managed/062.list"
+    },
+    {
+      "name": "Youtube / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/youtube.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/063.list"
+    },
+    {
+      "name": "Google / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/google.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/064.list"
+    },
+    {
+      "name": "Google / IP",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
+      "behavior": "ipcidr",
+      "protected": false,
+      "output": "rules/managed/065.list"
+    },
+    {
+      "name": "BiliBili / Domain",
+      "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/bilibili.list",
+      "behavior": "domain",
+      "protected": false,
+      "output": "rules/managed/066.list"
+    }
+  ],
+  "rules": [
+    "DOMAIN-SUFFIX,xn--ngstr-lra8j.com,所有-手动",
+    "DOMAIN-SUFFIX,services.googleapis.cn,所有-手动",
+    "RULE-SET,追加-GoogleCNProxyIP,所有-手动",
+    "RULE-SET,追加-LocalAreaNetwork,DIRECT",
+    "RULE-SET,追加-UnBan,DIRECT",
+    "RULE-SET,追加-ChinaDomain,DIRECT",
+    "RULE-SET,追加-ChinaMedia,DIRECT",
+    "RULE-SET,追加-BanAD,REJECT",
+    "RULE-SET,追加-BanProgramAD,REJECT",
+    "RULE-SET,追加-ChinaCompanyIp,DIRECT",
+    "RULE-SET,追加-ChinaIp,DIRECT",
+    "GEOIP,CN,DIRECT,no-resolve",
+    "RULE-SET,TEST / Domain,Test",
+    "RULE-SET,Block / Domain,Block",
+    "RULE-SET,ChatGPT / Domain,ChatGPT",
+    "RULE-SET,Claude / Domain,Claude",
+    "RULE-SET,Meta AI / Domain,Meta AI",
+    "RULE-SET,Perplexity / Domain,Perplexity",
+    "RULE-SET,Copilot / Domain,Copilot",
+    "RULE-SET,Gemini / Domain,Gemini",
+    "RULE-SET,Groq / Domain,Groq",
+    "RULE-SET,Grok / Domain,Grok",
+    "RULE-SET,Twitch / Domain,Twitch",
+    "RULE-SET,Reddit / Domain,Reddit",
+    "RULE-SET,GitHub / Domain,GitHub",
+    "RULE-SET,Telegram / Domain,Telegram",
+    "RULE-SET,Telegram / IP,Telegram",
+    "RULE-SET,WhatsApp / Domain,WhatsApp",
+    "RULE-SET,Facebook / Domain,Facebook",
+    "RULE-SET,Apple / Domain,Apple",
+    "RULE-SET,Apple-CN / Domain,Apple",
+    "RULE-SET,Apple-Custome / Domain,Apple",
+    "RULE-SET,Microsoft / Domain,Microsoft",
+    "RULE-SET,Crypto / Domain,Crypto",
+    "RULE-SET,OKX / Domain,Crypto",
+    "RULE-SET,Bybit / Domain,Crypto",
+    "RULE-SET,Binance / Domain,Crypto",
+    "RULE-SET,BiliBili / Domain,BiliBili",
+    "RULE-SET,Youtube / Domain,YouTube",
+    "RULE-SET,TikTok / Domain,TikTok",
+    "RULE-SET,Netflix / Domain,Netflix",
+    "RULE-SET,Netflix / IP,Netflix,no-resolve",
+    "RULE-SET,Disney / Domain,Disney",
+    "RULE-SET,Amazon / Domain,Amazon",
+    "RULE-SET,Crunchyroll / Domain,Crunchyroll",
+    "RULE-SET,Popcorn / Domain,Popcorn",
+    "RULE-SET,HBO / Domain,HBO",
+    "RULE-SET,Spotify / Domain,Spotify",
+    "RULE-SET,Steam / Domain,Steam",
+    "RULE-SET,Epic / Domain,Games",
+    "RULE-SET,EA / Domain,Games",
+    "RULE-SET,Blizzard / Domain,Games",
+    "RULE-SET,UBI / Domain,Games",
+    "RULE-SET,PlayStation / Domain,Games",
+    "RULE-SET,Nintend / Domain,Games",
+    "RULE-SET,Google / Domain,Google",
+    "RULE-SET,Google / IP,Google,no-resolve",
+    "RULE-SET,Nvidia / Domain,Nvidia",
+    "RULE-SET,Telegram / IP,国外",
+    "RULE-SET,Telegram / Domain,国外",
+    "RULE-SET,Proxy / Domain,国外",
+    "RULE-SET,Globe / Domain,国外",
+    "RULE-SET,Direct / Domain,国内",
+    "RULE-SET,China / Domain,国内",
+    "RULE-SET,China / IP,国内,no-resolve",
+    "RULE-SET,Private / Domain,国内",
+    "MATCH,所有-手动"
+  ]
+}
