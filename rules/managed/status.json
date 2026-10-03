@@ -157,7 +157,7 @@
     "output": 27,
     "removed": 0,
     "protected": false,
-    "source_sha256": "ae8fa40635eacb6d4bc879992b817ff8587de94efef54d9a9e7600e6f7f68d4b"
+    "source_sha256": "135deefd14fd9043a0ae1e94a69bd5f7c152aa18b9f9121d048c651477f6201d"
   },
   "WhatsApp / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp/Whatsapp.list",
@@ -181,7 +181,7 @@
     "output": 246,
     "removed": 0,
     "protected": false,
-    "source_sha256": "094e30558d20e417ca194962d7d8af043e4c1f3e6be2b23f06d3f591e70874ee"
+    "source_sha256": "fdad90dc373db211aca3e4164db6046e53f977b7812d6af18ba259f49293cd40"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1790,
     "removed": 2,
     "protected": false,
-    "source_sha256": "31f242fb6d39685828cd506fc68dc2e0ba942db9a961e22fa270047f4fb54484"
+    "source_sha256": "09111c43a8a8a2ffb52c4c6c21eebb404e10cb7909463c5ab5d5f497e5eab1b5"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 746,
     "removed": 2,
     "protected": false,
-    "source_sha256": "cadec82f5d6e37bf705dc460fc5150fd2c7e59f34415b6de2d4d810ae1959b7a"
+    "source_sha256": "68b5e1e31289194770675139162a34c69dfdda091abf8145a42817889cdc26dd"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4"
+    "source_sha256": "38a70a7f8cd7dcf2f49667718f9e5439b2f5a1a2f3fda8f6cc9efad302cc3847"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -477,7 +477,7 @@
     "output": 1075,
     "removed": 0,
     "protected": false,
-    "source_sha256": "7323f1d63181d3ee80ac702fead6a00494bcce66cd51c5bbfb76f390caccdc8c"
+    "source_sha256": "76222aad9960310986b4559aac6cba9c542f66e79f94e32b0fa793ceda28b749"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
@@ -493,6 +493,6 @@
     "output": 53,
     "removed": 0,
     "protected": false,
-    "source_sha256": "d1d76d33c08b2bfaea6b1f661c87eeb2064f6ebd7c5dbe8e1f2bb8ab5b4acc98"
+    "source_sha256": "54c34457d8079f70a64c89d17330241adbbb9d3f06c247f053b793e8f679aa57"
   }
 }
