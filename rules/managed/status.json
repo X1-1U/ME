@@ -333,7 +333,7 @@
     "output": 62,
     "removed": 0,
     "protected": false,
-    "source_sha256": "148f4ff869a482b49c81fbd606075712a6f72bd70ab2ee521ebeb6dcc44aaa89"
+    "source_sha256": "04599dc4767187ce81d6e57b6e41e18261fc862afa6f0842a510db67b18d9864"
   },
   "UBI / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list",
@@ -369,11 +369,11 @@
   },
   "Globe / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list",
-    "input": 35183,
-    "output": 35164,
+    "input": 35184,
+    "output": 35165,
     "removed": 19,
     "protected": false,
-    "source_sha256": "29bbe7ffad77e368db6d5d2cf3753feb6e6c9f46a9f8cc9f975d1b17409e42e8"
+    "source_sha256": "92849a25ede25475abf09d33cf4db2cb79d6ab1aafde893baf027b0025f8b9b4"
   },
   "Block / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Block.list",
