@@ -333,7 +333,7 @@
     "output": 62,
     "removed": 0,
     "protected": false,
-    "source_sha256": "04599dc4767187ce81d6e57b6e41e18261fc862afa6f0842a510db67b18d9864"
+    "source_sha256": "a8550262549e65d0319289281efb61e44b2b56cacc2003c19843029cf13103c8"
   },
   "UBI / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI/UBI.list",
