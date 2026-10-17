@@ -181,7 +181,7 @@
     "output": 246,
     "removed": 0,
     "protected": false,
-    "source_sha256": "fdad90dc373db211aca3e4164db6046e53f977b7812d6af18ba259f49293cd40"
+    "source_sha256": "7757265f6c05c6b04d67e55eae8259db340df78cb13a8008de5dc5e3eba1efef"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1790,
     "removed": 2,
     "protected": false,
-    "source_sha256": "c2f25d7c5ba49df614f8c26dc69a135f86c877921d11a5ac88cfcf2b12e5533c"
+    "source_sha256": "2c5e235f9bfe65b06b70f5c91a559781a28cd2e84bed34b1a6aedb707390f6e7"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -477,7 +477,7 @@
     "output": 1075,
     "removed": 0,
     "protected": false,
-    "source_sha256": "c3c6dba1f8903effd00506551758b69d1616a20ca53905ccf2daa770ee4c0403"
+    "source_sha256": "0c901963ab69715f983728910c4f081aca623afdc0299c9923281ea0cd05a356"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
