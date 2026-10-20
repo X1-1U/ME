@@ -197,7 +197,7 @@
     "output": 1790,
     "removed": 2,
     "protected": false,
-    "source_sha256": "e5985c65f6dfbe8da37e84cfb6bcc165a20a3c4b8e223a3acfd2c86ca69bca11"
+    "source_sha256": "5cfb4dc36625004719e13a61eae078ca3b16a31697a60c9822bc69c1fc64ca4b"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 744,
     "removed": 2,
     "protected": false,
-    "source_sha256": "42f8256c46fb4a088414fdb3544fe5e2f2c25d588e31359ec2ec54dec460b279"
+    "source_sha256": "5bb0416902e670b63c435513ed9391c6f8f2c161d5d64ce3d5afe378754cc768"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "c04c94c5bf3302d9930ee5d8c3a6ae1597e3a6ffcc8e650a6b22fb22175275f0"
+    "source_sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -457,11 +457,11 @@
   },
   "China / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/cn.list",
-    "input": 10009,
-    "output": 10009,
+    "input": 10015,
+    "output": 10015,
     "removed": 0,
     "protected": false,
-    "source_sha256": "07456bbfac8851a6a5149211841dcd0e7249e87bbcfab5a35891ec9eb1a8d22a"
+    "source_sha256": "364a9f1e97a32731f73d43ce2dc07b8d68412ffb128fea90799f071616ef590d"
   },
   "Youtube / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/youtube.list",
@@ -477,7 +477,7 @@
     "output": 1075,
     "removed": 0,
     "protected": false,
-    "source_sha256": "2e191d7abed78a1a2a16db1429f036cc8ac9665e6ebb66df9eb8a19ab4b365a9"
+    "source_sha256": "64009a4a5363d0a300286154274ae4ab67d97c15e7db7595c0af741e3327d956"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
