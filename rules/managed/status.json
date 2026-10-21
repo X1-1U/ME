@@ -81,11 +81,11 @@
   },
   "ChatGPT / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/openai.list",
-    "input": 23,
-    "output": 23,
+    "input": 24,
+    "output": 24,
     "removed": 0,
     "protected": false,
-    "source_sha256": "679d8831b88237bf5ead520effc56d17db7ab1cc3dd8fd3e5fed7cb9f630caed"
+    "source_sha256": "8a4f1b16302f882117d3c106d2ac21f108acbd4714dd7373d403745c0f338aa8"
   },
   "Claude / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "7302f792b9a57fe2e0e29a213663e975ba4ccd44f1725e6236b5c3b40abbee5c"
+    "source_sha256": "1541354df3b6b11f0295063878c7d5dfd1be437a6d2635f9f366a20dba7bbec2"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1790,
     "removed": 2,
     "protected": false,
-    "source_sha256": "5cfb4dc36625004719e13a61eae078ca3b16a31697a60c9822bc69c1fc64ca4b"
+    "source_sha256": "64a15240f284bb25d63fae2d2eb0bbd245aceaf3fd7e8e7eafb06194c67c0a42"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 744,
     "removed": 2,
     "protected": false,
-    "source_sha256": "5bb0416902e670b63c435513ed9391c6f8f2c161d5d64ce3d5afe378754cc768"
+    "source_sha256": "f976475c90d4d56d1862a27ff283667cd8af2a998fc53e05760be4a8f8f46a4f"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -477,7 +477,7 @@
     "output": 1075,
     "removed": 0,
     "protected": false,
-    "source_sha256": "64009a4a5363d0a300286154274ae4ab67d97c15e7db7595c0af741e3327d956"
+    "source_sha256": "6978fa8f1bd8592b3f2e144bedeb4709524fd6afe87c7dfb638be58505fcbc0a"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
