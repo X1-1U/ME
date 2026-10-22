@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "1541354df3b6b11f0295063878c7d5dfd1be437a6d2635f9f366a20dba7bbec2"
+    "source_sha256": "7302f792b9a57fe2e0e29a213663e975ba4ccd44f1725e6236b5c3b40abbee5c"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1790,
     "removed": 2,
     "protected": false,
-    "source_sha256": "64a15240f284bb25d63fae2d2eb0bbd245aceaf3fd7e8e7eafb06194c67c0a42"
+    "source_sha256": "e7e9c82bf12e6a5d826320cadad247b62f64994d383957fa3247ba395d91fa30"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -249,11 +249,11 @@
   },
   "Twitch / Domain": {
     "source": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitch.list",
-    "input": 34,
-    "output": 34,
+    "input": 35,
+    "output": 35,
     "removed": 0,
     "protected": false,
-    "source_sha256": "230e8e3b582de5c769be1b95e06d7aadf7cd83aa54df240bfca2f8bc14e5fd7c"
+    "source_sha256": "05ea7831c1a74ae9928d575b8548728c4ca7a01063a32102c3bbb47509eeb515"
   },
   "TikTok / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/tiktok.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4"
+    "source_sha256": "9e7a51f96e59087d40e2b77cce6a27d115f62aa8cfdf5e3137e28a56a8ed0797"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -457,11 +457,11 @@
   },
   "China / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/cn.list",
-    "input": 10015,
-    "output": 10015,
+    "input": 10013,
+    "output": 10013,
     "removed": 0,
     "protected": false,
-    "source_sha256": "364a9f1e97a32731f73d43ce2dc07b8d68412ffb128fea90799f071616ef590d"
+    "source_sha256": "6af33186c19635a253a2617aa594a4050f96ecd052874d4bd51a4ace0025153d"
   },
   "Youtube / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/youtube.list",
@@ -477,15 +477,15 @@
     "output": 1075,
     "removed": 0,
     "protected": false,
-    "source_sha256": "6978fa8f1bd8592b3f2e144bedeb4709524fd6afe87c7dfb638be58505fcbc0a"
+    "source_sha256": "c6921433763fefddacef92f7a46d73bc0107ecfb99b607b8bd4a31c9d7366e81"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
-    "input": 8552,
-    "output": 8552,
+    "input": 8562,
+    "output": 8562,
     "removed": 0,
     "protected": false,
-    "source_sha256": "a6a53e1542adad3d969b09b7bbfc1a52cbe8764041dcba408563e27d62f7858c"
+    "source_sha256": "99db3e7458f5c9be156f4655f2412e5bba2126246ee2abdd05f97a6964fca47f"
   },
   "BiliBili / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/bilibili.list",
