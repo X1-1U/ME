@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9"
+    "source_sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -193,11 +193,11 @@
   },
   "Apple / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple.list",
-    "input": 1791,
-    "output": 1789,
+    "input": 1793,
+    "output": 1791,
     "removed": 2,
     "protected": false,
-    "source_sha256": "4a6b68e499600fd502e0a2f172de8b36fa4de3cab0c835d694acf357f1e282ad"
+    "source_sha256": "daba187b4309180878c2c357d9e672d321629cad67bf91e4ac0c367fb0fba26a"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 751,
     "removed": 2,
     "protected": false,
-    "source_sha256": "e1ba1a681457f6341abe95954efe6c80ce3d4d9fbde3aed3734b344adaf0f89d"
+    "source_sha256": "da1dbd539c5318be94480677d962adfe4fc896940bccccff9dd7a9af25a71537"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "c04c94c5bf3302d9930ee5d8c3a6ae1597e3a6ffcc8e650a6b22fb22175275f0"
+    "source_sha256": "38a70a7f8cd7dcf2f49667718f9e5439b2f5a1a2f3fda8f6cc9efad302cc3847"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -449,11 +449,11 @@
   },
   "China / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/cn.list",
-    "input": 110175,
-    "output": 109720,
+    "input": 110177,
+    "output": 109722,
     "removed": 455,
     "protected": false,
-    "source_sha256": "bfd24ad933d1d6b85126a0663886f9864afebcc0a3fb020df13aa148955d6b12"
+    "source_sha256": "703c706f925afa756a404136ce2cbea856763969d241280ce55345519dc9332f"
   },
   "China / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/cn.list",
@@ -477,7 +477,7 @@
     "output": 1078,
     "removed": 0,
     "protected": false,
-    "source_sha256": "a41761c527399c445be43934c5e8b6fd2727a7ef1a28d8443fcc6f7077f71845"
+    "source_sha256": "5ff7f86ee2e3b3f84e1ce6980581fcc644b32f1bdbe314bcec4a6ca904a77340"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
@@ -493,6 +493,6 @@
     "output": 53,
     "removed": 0,
     "protected": false,
-    "source_sha256": "d1d76d33c08b2bfaea6b1f661c87eeb2064f6ebd7c5dbe8e1f2bb8ab5b4acc98"
+    "source_sha256": "54c34457d8079f70a64c89d17330241adbbb9d3f06c247f053b793e8f679aa57"
   }
 }
