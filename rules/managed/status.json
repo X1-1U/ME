@@ -133,7 +133,7 @@
     "output": 65,
     "removed": 0,
     "protected": false,
-    "source_sha256": "58fad9a70ecb92de3b36ecf8fc63cab3839836e611c8a5dea58df4947cb2df0c"
+    "source_sha256": "e1f8c98a265ce67ffaddded86e71d0d76595212eb4f331eb2d2e52e52d07beda"
   },
   "Telegram / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/telegram.list",
@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "4b4e7c1770e3d47c5055a39645a62c68c8e2faa44fecacdbd14ef339889d8791"
+    "source_sha256": "7302f792b9a57fe2e0e29a213663e975ba4ccd44f1725e6236b5c3b40abbee5c"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1791,
     "removed": 2,
     "protected": false,
-    "source_sha256": "dfa8c11aa49f8fff882ba84cd9e352b38a8ff9e1d0cb4db4f5d67436bb4ef8d9"
+    "source_sha256": "3e690d7b74274a1d4dac4c66e38c8e5ee3ae1df991c9db6ed5e904f08eb9bce8"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 753,
     "removed": 2,
     "protected": false,
-    "source_sha256": "3247102c9a2517100a34ef148ad91230278ee6be07408e3148b8c55d3b4d6cf4"
+    "source_sha256": "112bdea67250ca90868a00d7f53a6d2563979b00d0094419efd35c11130790e0"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "9e7a51f96e59087d40e2b77cce6a27d115f62aa8cfdf5e3137e28a56a8ed0797"
+    "source_sha256": "507a784631a66f243ea68abb169addf88120959c3827ec0bac7f8dbfbc9e5608"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -477,7 +477,7 @@
     "output": 1078,
     "removed": 0,
     "protected": false,
-    "source_sha256": "54116bdd6a8e4b6eb813aefef655f77106c40c49f2b0ac7f563df6f9ac9e726a"
+    "source_sha256": "ce967150c0ab46b1c501dd11fff1dd8457a3091ec128185f50388938f5545905"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
