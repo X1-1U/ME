@@ -133,7 +133,7 @@
     "output": 66,
     "removed": 0,
     "protected": false,
-    "source_sha256": "5f6d75da3af88d1993916e943c65e19b0ddec5e934b83509d118b71a7e336192"
+    "source_sha256": "df4830f1c82e3e5bfef499d48a9540e948bdb83235f1c3fd311780691bfd7fc0"
   },
   "Telegram / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/telegram.list",
@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "bc426132455344330c977ff13922151e622d2e9fdbf73c5127a0d85f044d1090"
+    "source_sha256": "8d1a975e552d051ac77f78472e31785a8ff08215af6c26bfa2b13057555adbb9"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -193,11 +193,11 @@
   },
   "Apple / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple.list",
-    "input": 1794,
-    "output": 1792,
+    "input": 1798,
+    "output": 1796,
     "removed": 2,
     "protected": false,
-    "source_sha256": "599902ff13c60a28794e8f3eee56ea7baf3e6704fb97b1612dd6c615fa061c03"
+    "source_sha256": "6fca9cef151882a360478d4b84ac87e4b5254db07c574061b7f675642245c28e"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -209,11 +209,11 @@
   },
   "Microsoft / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/microsoft.list",
-    "input": 756,
-    "output": 754,
+    "input": 759,
+    "output": 757,
     "removed": 2,
     "protected": false,
-    "source_sha256": "559aee1cda7bada3e07226b115906829e97a6fbf33125fedba0d416e8029e031"
+    "source_sha256": "5ee6a7982a4a6b71e1ea8a5da9093f704657ecd66f7bc67f648b6dccf6a71ee6"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "6367fc2d6085aef54cfc29672bf624c8445ea5e86504a3974129a82206559682"
+    "source_sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -477,7 +477,7 @@
     "output": 1078,
     "removed": 0,
     "protected": false,
-    "source_sha256": "c26b19f293393ad528dc1fe3fd67aa195d03e11525fafc9510f1322bde896237"
+    "source_sha256": "7263c6505ddb1458b30fd9f621e8770472bd41c11c72d286905fef9685bda00c"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
