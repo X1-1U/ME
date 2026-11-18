@@ -10,5 +10,5 @@ DOMAIN-SUFFIX,emby.yusen.us.ci
 DOMAIN-SUFFIX,embya.yusen.cyou
 DOMAIN-SUFFIX,emby.yusen.cc.cd
 DOMAIN-SUFFIX,starryblu.com
-DOMAIN,starryblu-public.oss-accelerate.aliyuncs.com
-DOMAIN,h2static.wotransfer.com
+DOMAIN-SUFFIX,starryblu-public.oss-accelerate.aliyuncs.com
+DOMAIN-SUFFIX,h2static.wotransfer.com
