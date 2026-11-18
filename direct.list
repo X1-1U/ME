@@ -12,3 +12,4 @@ DOMAIN-SUFFIX,emby.yusen.cc.cd
 DOMAIN-SUFFIX,starryblu.com
 DOMAIN-SUFFIX,starryblu-public.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,h2static.wotransfer.com
+IP-CIDR,69.63.49.201,no-resolve
