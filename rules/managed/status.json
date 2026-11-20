@@ -181,7 +181,7 @@
     "output": 247,
     "removed": 0,
     "protected": false,
-    "source_sha256": "4b73b48cf7850a095194cfa700b5e1cf63f6e9b5d7071c45f603030eb84c1ce1"
+    "source_sha256": "1541354df3b6b11f0295063878c7d5dfd1be437a6d2635f9f366a20dba7bbec2"
   },
   "Apple-CN / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/apple-cn.list",
@@ -197,7 +197,7 @@
     "output": 1796,
     "removed": 2,
     "protected": false,
-    "source_sha256": "d9bf789854edd9774cc3095534b6a2f979db44bad4279cb1a4de703bfffb175b"
+    "source_sha256": "15f909949c8cc05d797bb8a6ada80f2cf841bed72521c4a7419a328628d97e0c"
   },
   "Apple-Custome / Domain": {
     "source": "https://raw.githubusercontent.com/liandu2024/clash/main/list/Apple.list",
@@ -213,7 +213,7 @@
     "output": 757,
     "removed": 2,
     "protected": false,
-    "source_sha256": "7c974dd2cbd6937c7d23e1d67110ea7e5d42466a95efe630b149dfb2214a0a2a"
+    "source_sha256": "156d5ea5034956d41d042ffea8858d7c85cb779687afa66deeb49e37b980bdb8"
   },
   "Crypto / Domain": {
     "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto/Crypto.list",
@@ -285,7 +285,7 @@
     "output": 224,
     "removed": 0,
     "protected": false,
-    "source_sha256": "3d791b93bbc96a114bb0283d7723d47cf0751dd42a38e9bb966e0b923cce8ff4"
+    "source_sha256": "c04c94c5bf3302d9930ee5d8c3a6ae1597e3a6ffcc8e650a6b22fb22175275f0"
   },
   "HBO / Domain": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/hbo.list",
@@ -477,7 +477,7 @@
     "output": 1078,
     "removed": 0,
     "protected": false,
-    "source_sha256": "3e45ace2d90c027e465cec67b85e58f36107242130cd92a430f1e14db6f4593e"
+    "source_sha256": "9099972cabb0a59576b2579039b27fbfeaf79f7cfecbd6435cac2fb4effb037e"
   },
   "Google / IP": {
     "source": "https://raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geoip/google.list",
