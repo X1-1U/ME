@@ -33,19 +33,19 @@
   },
   "追加-ChinaMedia": {
     "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list",
-    "input": 38,
-    "output": 38,
+    "input": 39,
+    "output": 39,
     "removed": 0,
     "protected": true,
-    "source_sha256": "69c437c641bbbea0001f33ecf6e8a6333a72f53d537b19ac9fd564d6927a2b21"
+    "source_sha256": "a18ec9b9755fecb29ad2cb3ba73ad87b3d5db855d3947ef3811fd490f0904b0a"
   },
   "追加-BanAD": {
     "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list",
-    "input": 588,
-    "output": 588,
+    "input": 590,
+    "output": 590,
     "removed": 0,
     "protected": true,
-    "source_sha256": "27a5f6d018d428409d8da5d9f390a46298d505ae4941bb8172f052055abe7262"
+    "source_sha256": "110117815a28fba39adcd32da1c6cf2c8b61b4a8e910ef5afdf965647bdc72a9"
   },
   "追加-BanProgramAD": {
     "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list",
